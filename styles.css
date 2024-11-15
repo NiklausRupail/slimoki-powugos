@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  background-color: rgb(165, 255, 195);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.butony div {
+  border: 3px solid #b3571a;
+  background-color: white;
+  padding: 14px 90px;
+  border-radius: 5px;
+  font-size: large;
+}
+.butony div a {
+  text-decoration: none;
+}
+.butony div:hover {
+  cursor: pointer;
+}
+section {
+  display: flex;
+}
+section aside {
+  background-color: grey;
+  width: 20%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+section div {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ol {
+  margin: 0;
+}
+.slimaki li {
+  color: rgb(252, 62, 62);
+}
+.ryby li {
+  color: rgb(96, 96, 255);
+}
+/* section div img {
+  margin: -40px 0px 0px -120px;
+} */
+footer {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgb(165, 255, 195);
+  padding: 10px 50px;
+}
