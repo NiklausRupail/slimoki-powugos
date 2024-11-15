@@ -15,17 +15,19 @@ header {
 }
 
 .butony div {
-  border: 3px solid #b3571a;
+  border: 3px outset #b3571a;
   background-color: white;
   padding: 14px 90px;
   border-radius: 5px;
   font-size: large;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .butony div a {
   text-decoration: none;
 }
 .butony div:hover {
   cursor: pointer;
+  background-color: gray;
 }
 section {
   display: flex;
@@ -45,6 +47,13 @@ section div {
   justify-content: center;
   align-items: center;
 }
+a {
+  color: orange;
+}
+a:visited {
+  color: darkgreen;
+}
+
 ol {
   margin: 0;
 }
@@ -54,14 +63,13 @@ ol {
 .ryby li {
   color: rgb(96, 96, 255);
 }
-/* section div img {
-  margin: -40px 0px 0px -120px;
-} */
+
 footer {
   text-align: right;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   background-color: rgb(165, 255, 195);
+  color: #b3571a;
   padding: 10px 50px;
 }
